@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Works | 冀柯宇 Ji Keyu 求职作品集</title>
+  <meta name="description" content="冀柯宇求职作品集项目列表，包含新媒体影像、Projection Mapping、裸眼3D、AIGC视觉与公共艺术落地项目。">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="works">
+  <canvas class="motion-field" data-motion-field aria-hidden="true"></canvas>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand magnetic" href="index.html">
+      <span>Ji Keyu</span>
+      <small>New Media Portfolio</small>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a class="magnetic" href="index.html">Profile</a>
+      <a class="magnetic" href="works.html" aria-current="page">Works</a>
+      <a class="magnetic" href="index.html#honors">Honors</a>
+      <a class="magnetic" href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <p class="eyebrow">Project Index</p>
+      <h1>项目案例与能力展示</h1>
+      <p class="lead">
+        15 个项目按媒介与落地类型整理，覆盖 Projection Mapping、裸眼 3D、AIGC 视觉生成、装置展陈与公共艺术执行。点击预览可快速查看素材，进入详情可了解项目概览、职责与输出。
+      </p>
+    </section>
+
+    <section class="section works-board">
+      <div class="filter-row">
+        <div class="filter-bar reveal" aria-label="作品筛选">
+          <button class="filter-button active magnetic" type="button" data-filter="all">全部</button>
+          <button class="filter-button magnetic" type="button" data-filter="mapping">3D Mapping</button>
+          <button class="filter-button magnetic" type="button" data-filter="naked-eye">裸眼3D</button>
+          <button class="filter-button magnetic" type="button" data-filter="aigc">AIGC 视觉</button>
+          <button class="filter-button magnetic" type="button" data-filter="installation">落地项目</button>
+        </div>
+        <div class="work-count reveal" data-work-count></div>
+      </div>
+      <div class="work-grid reveal" data-work-grid></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Ji Keyu</h2>
+    </div>
+    <address>
+      <a class="magnetic" href="tel:19888949307">198-8894-9307</a>
+      <a class="magnetic" href="mailto:1339916143@qq.com">1339916143@qq.com</a>
+    </address>
+  </footer>
+
+  <button class="back-to-top magnetic" type="button" aria-label="回到顶部">↑</button>
+  <div class="lightbox" data-lightbox hidden></div>
+  <script src="assets/js/works-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
