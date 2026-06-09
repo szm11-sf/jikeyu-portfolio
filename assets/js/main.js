@@ -269,7 +269,7 @@
     if (!lightbox || !item) return;
 
     const media = item.type === "video"
-      ? `<video controls autoplay playsinline poster="${escapeHTML(item.poster || "")}"><source src="${escapeHTML(item.src)}" type="video/mp4"></video>`
+      ? `<video controls playsinline preload="metadata" poster="${escapeHTML(item.poster || "")}"><source src="${escapeHTML(item.src)}" type="video/mp4"></video>`
       : `<img src="${escapeHTML(item.src)}" alt="${escapeHTML(item.title)}">`;
 
     lightbox.innerHTML = `
