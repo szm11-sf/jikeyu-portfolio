@@ -9,6 +9,8 @@
       year: "2025",
       category: "mapping",
       categoryLabel: "3D Mapping",
+      practiceLine: "Spatial Projection",
+      roleKeywords: ["影像叙事", "界面视觉", "Mapping输出"],
       location: "重庆，中国",
       status: "第四届重庆国际光影艺术节现场展演",
       cover: "assets/media/images/face-id-03.webp",
@@ -19,8 +21,28 @@
       output: "完成重庆国际光影艺术节现场展演版本，并整理概念脚本、视频成片与现场图像资料，可用于展示影像创作、空间叙事和 Mapping 输出能力。",
       tags: ["Projection Mapping", "数字身份", "动态影像", "现场展演"],
       images: imageRange("face-id", 14),
-      video: "assets/media/video/face-id.mp4",
+      video: "assets/media/video/public/face-id.mp4",
       document: "assets/media/docs/face-id-concept.pdf"
+    },
+    {
+      id: "xushi-shengxi",
+      title: "虚室生喜",
+      year: "2026",
+      category: "media-installation",
+      categoryLabel: "新媒体装置",
+      practiceLine: "New Media Installation",
+      roleKeywords: ["共同创作", "交互场域", "情绪装置"],
+      location: "西安，中国",
+      status: "西安美术学院跨媒体艺术学院毕业作品",
+      cover: "assets/media/images/xushi-shengxi-13.webp",
+      featured: true,
+      summary: "以 LED 格栅屏、激光灯与感应交互构成的沉浸式新媒体装置，将 Face ID 技术逻辑转化为对情绪规训与社交面具的视觉隐喻。",
+      detail: "作品围绕“喜悦”在私密状态与社交场景中的转换展开：无人时，空间中呈现更接近个体呼吸与真实情绪的微光；当观众进入场域，系统转向标准化微笑、激光与声光压迫，形成真实自我与社交面具之间的戏剧反差。",
+      role: "与冯博锐共同创作，参与作品概念设定、装置场域构建、LED 格栅屏视觉内容、激光灯氛围组织、现场调试与项目资料整理。",
+      output: "完成 675cm×530cm×350cm 的毕业作品现场呈现，形成最终现场图、创作过程记录与作品阐述资料，展示新媒体装置、交互叙事和空间情绪表达能力。",
+      tags: ["New Media Installation", "LED格栅屏", "激光灯", "情绪交互"],
+      images: imageRange("xushi-shengxi", 20),
+      video: "assets/media/video/public/xushi-shengxi.mp4"
     },
     {
       id: "null-id",
@@ -28,39 +50,40 @@
       year: "2026",
       category: "mapping",
       categoryLabel: "3D Mapping",
+      practiceLine: "Spatial Projection",
+      roleKeywords: ["身份主题", "像素视觉", "方案延展"],
       location: "喀山，俄罗斯",
       status: "俄罗斯喀山国际光影艺术节项目",
-      cover: "assets/media/images/null-id-02.webp",
+      cover: "assets/media/images/null-id-05.webp",
       featured: true,
       summary: "延展自数字身份主题的 Mapping 视觉方案，以像素点阵和虚拟面孔为主要语言，回应 AI 拟像与身份失真。",
       detail: "项目将“NULL”理解为拒绝赋值和身份空缺，使用 RGB 像素、低层级电子颗粒与虚构面孔组织画面，在建筑投影语境中呈现数字身份被生成、覆盖和消解的过程。",
       role: "围绕既有身份主题进行视觉概念延展，整理影像风格、画面方向和项目展示素材。",
-      output: "形成喀山光影节方向的视觉图像与项目资料，补充个人作品集中跨场景 Mapping 方案转化能力。",
+      output: "形成喀山光影节方向的完整视觉图像资料，补充个人作品集中跨场景 Mapping 方案转化能力。",
       tags: ["Projection Mapping", "像素视觉", "身份主题"],
-      images: imageRange("null-id", 2)
+      images: imageRange("null-id", 5),
+      video: "assets/media/video/public/null-id.mp4"
     },
     {
       id: "redo-id",
       title: "Redo ID",
-      year: "2025",
+      year: "2026",
       category: "mapping",
       categoryLabel: "3D Mapping",
+      practiceLine: "Spatial Projection",
+      roleKeywords: ["动态界面", "Mapping影像", "入围资料"],
       location: "亚洲国际光影艺术节",
       status: "2026 亚洲国际 Mapping 大赛入围",
-      cover: "assets/media/images/redo-id-01.gif",
+      cover: "assets/media/images/redo-id-2026-04.webp",
       featured: true,
-      summary: "以动态界面和身份图像重写为核心的 Mapping 影像实践，呈现数字身份被刷新、重置和再生成的过程。",
-      detail: "项目通过 GIF 动态片段和影像帧建立连续视觉节奏，将界面动效、人物身份和数据系统结合，强调公共投影中的动态识别感和信息流动感。",
-      role: "参与视觉概念、动态画面组织和项目入围资料整理，重点呈现身份主题在动态影像中的延展。",
-      output: "完成亚洲国际 Mapping 大赛入围方向的动态图像资料，展示 GIF 动态、界面视觉和 Mapping 项目表达能力。",
-      tags: ["Mapping", "GIF 动态", "界面视觉"],
-      images: [
-        "assets/media/images/redo-id-01.gif",
-        "assets/media/images/redo-id-02.gif",
-        "assets/media/images/redo-id-03.gif",
-        "assets/media/images/redo-id-04.gif",
-        ...imageRange("redo-id", 8).slice(4)
-      ]
+      summary: "面向 2026 亚洲国际光影艺术节的 Mapping 入围作品，以身份图像重写、界面刷新和数据再生成组织连续影像节奏。",
+      detail: "项目通过高密度影像帧、身份图像切片和界面系统建立连续视觉节奏，将人物身份、公共投影和数据反馈结合，强调数字身份在屏幕与建筑表皮之间被刷新、重置和再生成的过程。",
+      role: "参与视觉概念、动态画面组织、Mapping 影像输出和项目入围资料整理，重点呈现身份主题在动态影像中的延展。",
+      output: "完成亚洲国际 Mapping 大赛入围方向的视频、单帧画面与视觉材料 PDF，展示界面视觉、动态影像和 Mapping 项目表达能力。",
+      tags: ["Mapping", "界面视觉", "入围作品"],
+      images: imageRange("redo-id-2026", 10),
+      video: "assets/media/video/public/redo-id.mp4",
+      document: "assets/media/docs/redo-id-visual-material.pdf"
     },
     {
       id: "lingdong",
@@ -68,6 +91,8 @@
       year: "2024",
       category: "mapping",
       categoryLabel: "3D Mapping",
+      practiceLine: "Spatial Projection",
+      roleKeywords: ["抽象影像", "节奏组织", "投影画面"],
       location: "重庆，中国",
       status: "第三届重庆国际光影艺术节项目",
       cover: "assets/media/images/lingdong-02.webp",
@@ -77,7 +102,7 @@
       output: "完成影像视频、过程图和现场素材整理，展示抽象动态影像与 Projection Mapping 创作能力。",
       tags: ["Projection Mapping", "抽象影像", "光影艺术节"],
       images: imageRange("lingdong", 6),
-      video: "assets/media/video/lingdong.mp4"
+      video: "assets/media/video/public/lingdong.mp4"
     },
     {
       id: "zhuangyingxi",
@@ -85,6 +110,8 @@
       year: "2024",
       category: "mapping",
       categoryLabel: "3D Mapping",
+      practiceLine: "Spatial Projection",
+      roleKeywords: ["地方文化", "动态影像", "视觉转译"],
       location: "西安，中国",
       status: "光影绘境 Vidda 投影艺术大赛相关创作",
       cover: "assets/media/images/zhuangyingxi-03.webp",
@@ -94,7 +121,7 @@
       output: "完成拍摄版视频与创作过程图像，展示地方文化转译、投影视觉和叙事影像能力。",
       tags: ["Projection Mapping", "地方文化", "视觉转译"],
       images: imageRange("zhuangyingxi", 3),
-      video: "assets/media/video/zhuangyingxi.mp4"
+      video: "assets/media/video/public/zhuangyingxi.mp4"
     },
     {
       id: "weiqunan",
@@ -102,6 +129,8 @@
       year: "2024",
       category: "naked-eye",
       categoryLabel: "裸眼3D",
+      practiceLine: "Public Screen",
+      roleKeywords: ["城市大屏", "裸眼3D", "展映资料"],
       location: "深圳，中国",
       status: "第三届 CDSA 国际媒体创意大赛入围并展映",
       cover: "assets/media/images/weiqunan-04.webp",
@@ -112,7 +141,7 @@
       output: "作品入围第三届 CDSA 国际媒体创意大赛并于“深圳大招牌”大屏展映，体现公共屏幕影像和裸眼 3D 项目输出能力。",
       tags: ["裸眼3D", "城市大屏", "CDSA 展映"],
       images: imageRange("weiqunan", 7),
-      video: "assets/media/video/weiqunan.mp4"
+      video: "assets/media/video/public/weiqunan.mp4"
     },
     {
       id: "sugar-radio",
@@ -120,6 +149,8 @@
       year: "2024",
       category: "naked-eye",
       categoryLabel: "裸眼3D",
+      practiceLine: "Public Screen",
+      roleKeywords: ["风格视觉", "裸眼3D", "动态图像"],
       location: "深圳，中国",
       status: "第三届 CDSA 国际媒体创意大赛创作实践",
       cover: "assets/media/images/sugar-radio-01.webp",
@@ -130,7 +161,7 @@
       output: "完成裸眼 3D 影像视频及系列画面，展示风格化视觉、趣味概念和大屏影像创作能力。",
       tags: ["裸眼3D", "风格化视觉", "大屏影像"],
       images: imageRange("sugar-radio", 6),
-      video: "assets/media/video/sugar-radio.mp4"
+      video: "assets/media/video/public/sugar-radio.mp4"
     },
     {
       id: "guiyuan",
@@ -138,6 +169,8 @@
       year: "2025",
       category: "aigc",
       categoryLabel: "AIGC 视觉",
+      practiceLine: "Image System",
+      roleKeywords: ["提示词控制", "风格统一", "概念视觉"],
       location: "西安，中国",
       status: "AIGC 视频生成练习",
       cover: "assets/media/images/guiyuan-01.webp",
@@ -154,6 +187,8 @@
       year: "2025",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Public Installation",
+      roleKeywords: ["驻地创作", "现场搭建", "公共参与"],
       location: "秦皇岛，中国",
       status: "阿那亚戏剧节候鸟300 入选项目",
       cover: "assets/media/images/waterlines-01.webp",
@@ -170,6 +205,8 @@
       year: "2025",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Public Installation",
+      roleKeywords: ["互动装置", "驻地创作", "现场记录"],
       location: "秦皇岛，中国",
       status: "阿那亚戏剧节候鸟300 / 金山岭阶段性展览",
       cover: "assets/media/images/bia-bia-bia-04.webp",
@@ -187,6 +224,8 @@
       year: "2024",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Production Landing",
+      roleKeywords: ["展陈设计", "效果图", "执行文件"],
       location: "上海，中国",
       status: "上海市浦东新区晶耀前滩商业空间项目",
       cover: "assets/media/images/crystal-plaza-03.webp",
@@ -203,6 +242,8 @@
       year: "2024",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Production Landing",
+      roleKeywords: ["项目管理", "工艺监督", "现场执行"],
       location: "上海，中国",
       status: "上海新天地蛇年艺术装置",
       cover: "assets/media/images/xintiandi-02.webp",
@@ -219,6 +260,8 @@
       year: "2024",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Production Landing",
+      roleKeywords: ["供应商协同", "尺寸深化", "装置落地"],
       location: "杭州，中国",
       status: "杭州市黄龙国际中心项目",
       cover: "assets/media/images/klab-04.webp",
@@ -235,6 +278,8 @@
       year: "2026",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Production Landing",
+      roleKeywords: ["商业装置", "视觉方案", "现场协作"],
       location: "重庆，中国",
       status: "商业公共艺术装置项目",
       cover: "assets/media/images/chongqing-ifs-01.webp",
@@ -251,6 +296,8 @@
       year: "2024",
       category: "installation",
       categoryLabel: "落地项目",
+      practiceLine: "Public Installation",
+      roleKeywords: ["公共空间", "现场记录", "场景适配"],
       location: "福州，中国",
       status: "机场公共艺术活动",
       cover: "assets/media/images/fuzhou-airport-01.webp",
@@ -268,6 +315,106 @@
     mapping: "3D Mapping",
     "naked-eye": "裸眼3D",
     aigc: "AIGC 视觉",
+    "media-installation": "新媒体装置",
     installation: "落地项目"
+  };
+
+  window.WORK_CASE_DETAILS = {
+    "face-id": {
+      background: "项目面向重庆国际光影艺术节的建筑投影现场，需在公共夜间观看环境中建立清晰、连续且可远距离识别的影像叙事。",
+      goal: "将日常 Face ID 识别流程转译为空间影像，把身份验证、界面反馈和建筑表皮结合，形成可被观众快速进入的公共影像系统。",
+      method: "以识别框、面部轮廓、数据扫描和界面刷新作为视觉母题，组织动态节奏、空间透视和 Mapping 输出画面，并整理概念脚本、成片与现场资料。",
+      value: "体现公共投影影像的概念转译、动态视觉组织和现场展示输出能力。"
+    },
+    "xushi-shengxi": {
+      background: "毕业作品在西安美术学院跨媒体艺术学院现场呈现，作品需要同时处理装置尺度、观众进入、声光氛围和情绪叙事。",
+      goal: "把 Face ID 的技术识别逻辑转化为关于情绪规训和社交面具的空间体验，让观众在进入场域时感受到真实情绪与标准化微笑之间的变化。",
+      method: "使用 LED 格栅屏、激光灯和感应交互构建沉浸式场域，通过无人状态与有人状态的视觉切换，形成微光、扫描、压迫和反馈之间的节奏关系。",
+      value: "展示新媒体装置的共同创作、空间构建、交互叙事、现场调试和毕业作品完整呈现能力。"
+    },
+    "null-id": {
+      background: "项目面向俄罗斯喀山国际光影艺术节方向，延续数字身份主题并适配建筑投影的图像呈现方式。",
+      goal: "围绕“空身份”和“拒绝赋值”的概念，呈现数字身份被生成、覆盖和消解的过程。",
+      method: "使用 RGB 像素、低层级电子颗粒、虚构面孔和界面故障感组织画面，形成适合 Mapping 场景的视觉方案与项目图像资料。",
+      value: "补充跨场景 Mapping 方案延展、像素视觉控制和身份主题系列化表达能力。"
+    },
+    "redo-id": {
+      background: "项目面向 2026 亚洲国际光影艺术节 Mapping 入围方向，需要形成完整的视频、单帧画面和视觉材料。",
+      goal: "通过身份图像重写、界面刷新和数据再生成，强化数字身份在屏幕与建筑表皮之间被反复识别和重置的感受。",
+      method: "以高密度影像帧、人物切片、数据反馈和界面系统组织连续视觉节奏，并输出视频、单帧画面与入围材料 PDF。",
+      value: "展示 Mapping 影像、界面视觉、动态画面组织和赛事资料整理能力。"
+    },
+    lingdong: {
+      background: "项目来自重庆国际光影艺术节方向的投影影像实践，主要处理抽象影像在空间观看中的节奏与秩序。",
+      goal: "在理性线性结构与情绪化色域之间建立对比，形成适合投影场景的抽象视觉体验。",
+      method: "使用几何构成、抽象动态、光色节奏和画面层次组织影像，并完成视频、过程图和现场素材整理。",
+      value: "体现抽象动态影像、节奏控制和 Projection Mapping 创作能力。"
+    },
+    zhuangyingxi: {
+      background: "项目围绕西安地方文化物象展开，将雁塔马桩等传统符号转化为光影叙事。",
+      goal: "把地方文化符号从静态物象转为可观看的投影场景，建立幻想、雨夜、树影和梦境之间的视觉关系。",
+      method: "提取马桩、海底、雨夜、树影等元素，完成主题提炼、视觉风格设定、动态影像制作和创作过程记录。",
+      value: "展示地方文化转译、叙事影像和投影视觉组织能力。"
+    },
+    weiqunan: {
+      background: "作品面向城市大屏与裸眼 3D 展映场景，入围第三届 CDSA 国际媒体创意大赛并在深圳大屏展映。",
+      goal: "以“韦曲南”地铁站点为入口，把通勤、网络生活和城市信息流转化为适合公共屏幕观看的视觉场景。",
+      method: "围绕城市空间、信息生态和视觉透视进行概念设定、画面设计、裸眼 3D 表现和展映资料整理。",
+      value: "体现城市大屏影像、裸眼 3D 视觉和公共屏幕输出能力。"
+    },
+    "sugar-radio": {
+      background: "项目面向裸眼 3D 大屏创作实践，强调商业公共屏幕中高识别度和趣味视觉的建立。",
+      goal: "从“糖果是否可以演奏”的创意出发，把乐器、甜品质感和声音想象转化为鲜明的大屏影像。",
+      method: "整合手风琴、编钟、排箫、钢琴等乐器意象，完成风格设定、画面资产组织和动态影像输出。",
+      value: "展示风格化视觉、趣味概念、大屏影像和裸眼 3D 创作能力。"
+    },
+    guiyuan: {
+      background: "项目为 AIGC 视觉生成练习，重点训练概念视觉从主题设定到系列化图像输出的完整流程。",
+      goal: "围绕宇宙天体、废墟文明和科技自然建立统一世界观，探索自然本源与科技共生的视觉关系。",
+      method: "通过提示词方向控制、生成结果筛选、风格校准和系列图像整理，形成统一的概念视觉组图。",
+      value: "展示 AIGC 概念设定、提示词控制、风格统一和影像前期视觉能力。"
+    },
+    waterlines: {
+      background: "项目入选阿那亚戏剧节候鸟 300 驻地创作，在海边公共场域中完成可参与装置现场。",
+      goal: "把关于水势、财气和空间流动的民俗想象转化为轻松、可互动的公共装置体验。",
+      method: "使用玩具水枪、水桶等现成品组织现场结构，参与驻地创作、材料组织、现场搭建和互动方式呈现。",
+      value: "展示公共参与、材料转化、驻地创作和现场搭建能力。"
+    },
+    "bia-bia-bia": {
+      background: "项目入选阿那亚戏剧节候鸟 300，在驻地现场完成公共互动装置，并后续进入金山岭阶段性展览。",
+      goal: "把童年游戏中的陀螺放大并置入沙滩场景，让观众通过涂画和互动参与生成现场记忆。",
+      method: "围绕日常玩具的公共化转译完成驻地创作、装置呈现、现场互动执行和图像记录整理。",
+      value: "展示互动装置、公共空间参与、驻地创作和作品后续展览转化能力。"
+    },
+    "crystal-plaza": {
+      background: "项目服务于上海浦东晶耀前滩商业空间年度艺术企划，需要兼顾公共停留、季节氛围和商业空间识别度。",
+      goal: "以水母装置和城市入口概念组织公共空间视觉体验，让商业空间具备轻透、自然和可观看的艺术节点。",
+      method: "参与装置与展陈设计，完成三维模型、效果图、尺寸深化和施工沟通所需视觉资料输出。",
+      value: "体现商业空间展陈设计、三维视觉、执行文件和落地协作能力。"
+    },
+    xintiandi: {
+      background: "项目为上海新天地蛇年艺术装置，面对节庆商业公共空间，需要保证形象识别、材料工艺和现场完成度。",
+      goal: "结合福蛇形象、弹簧结构和发光材料，形成具有节庆记忆点和公共拍照属性的装置效果。",
+      method: "承担项目经理相关工作，参与制作落地管控、工艺监督、技术对接和现场执行督导。",
+      value: "展示项目管理、材料工艺沟通、跨团队协作和商业装置落地能力。"
+    },
+    klab: {
+      background: "项目为杭州黄龙国际中心 K-LAB 六周年艺术焕新，需要在商业空间中完成主体装置的视觉与执行落地。",
+      goal: "围绕周年庆节点建立中场装置视觉记忆点，同时保证预算、供应商、尺寸文件和现场组装之间的推进效率。",
+      method: "担任项目经理相关工作，主导效果图、尺寸深化、进度成本文件、供应商协同和现场落地跟进。",
+      value: "展示商业项目管理、供应商协同、执行文件输出和 20 万级物料采购推进经验。"
+    },
+    "chongqing-ifs": {
+      background: "项目面向重庆 IFS 国金中心新年商业公共空间，需要在高人流场域中完成节庆装置呈现。",
+      goal: "通过装置视觉和空间布置强化新年氛围、场地可见度和公共停留体验。",
+      method: "参与视觉方案、装置效果呈现、执行资料整理和现场落地相关协作，并完成现场图像资料归档。",
+      value: "展示大型商业空间装置的视觉呈现、现场协作和公共艺术落地经验。"
+    },
+    "fuzhou-airport": {
+      background: "项目发生在福州长乐机场公共交通场域，重点记录艺术装置在流动人群和交通空间中的展示状态。",
+      goal: "呈现公共艺术在机场场景中的停留、观看和空间适配效果，补充交通场域的项目经验。",
+      method: "参与项目现场记录和资料整理，梳理装置展示状态、观众尺度和场景适配图像。",
+      value: "展示公共空间现场记录、交通场域适配和艺术节资料整理能力。"
+    }
   };
 })();
