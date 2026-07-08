@@ -216,9 +216,10 @@
     const gallery = (work.images || []).map((src, imageIndex) => {
       const lightboxOffset = work.video ? imageIndex + 1 : imageIndex;
       const wide = imageIndex % 5 === 0 || imageIndex % 5 === 3 ? "wide" : "";
+      const loading = imageIndex < 6 ? "eager" : "lazy";
       return `
         <button class="project-thumb ${wide}" type="button" data-lightbox-index="${lightboxOffset}" aria-label="查看 ${escapeHTML(work.title)} 影像记录 ${imageIndex + 1}">
-          <img src="${escapeHTML(src)}" alt="${escapeHTML(work.title)} 影像记录 ${imageIndex + 1}" loading="lazy">
+          <img src="${escapeHTML(src)}" alt="${escapeHTML(work.title)} 影像记录 ${imageIndex + 1}" loading="${loading}" decoding="async">
         </button>
       `;
     }).join("");
@@ -300,12 +301,12 @@
         </section>
       ` : ""}
 
-      <section class="section">
+      <section class="section project-media-section">
         <div class="section-heading reveal">
           <p class="eyebrow">Media Archive</p>
           <h2>图像记录</h2>
         </div>
-        <div class="project-gallery reveal">${gallery}</div>
+        <div class="project-gallery">${gallery}</div>
       </section>
     `;
 

@@ -20,7 +20,7 @@
       role: "参与作品概念设定、视觉风格构建、动态影像内容制作与项目资料整理，重点完成影像叙事逻辑和视觉系统表达。",
       output: "完成重庆国际光影艺术节现场展演版本，并整理概念脚本、视频成片与现场图像资料，可用于展示影像创作、空间叙事和 Mapping 输出能力。",
       tags: ["Projection Mapping", "数字身份", "动态影像", "现场展演"],
-      images: imageRange("face-id", 14),
+      images: [...imageRange("face-id", 14), ...imageRange("face-id-frame", 24)],
       video: "assets/media/video/public/face-id.mp4",
       document: "assets/media/docs/face-id-concept.pdf"
     },
@@ -120,7 +120,7 @@
       role: "参与主题提炼、视觉风格设定、动态影像制作和创作过程记录。",
       output: "完成拍摄版视频与创作过程图像，展示地方文化转译、投影视觉和叙事影像能力。",
       tags: ["Projection Mapping", "地方文化", "视觉转译"],
-      images: imageRange("zhuangyingxi", 3),
+      images: imageRange("zhuangyingxi", 6),
       video: "assets/media/video/public/zhuangyingxi.mp4"
     },
     {
@@ -197,7 +197,7 @@
       role: "参与驻地创作、材料组织、现场搭建与互动方式呈现。",
       output: "完成阿那亚候鸟300现场装置与图像记录，展示公共艺术现场执行和材料转化能力。",
       tags: ["Installation Art", "阿那亚", "公共参与"],
-      images: imageRange("waterlines", 4)
+      images: imageRange("waterlines", 5)
     },
     {
       id: "bia-bia-bia",
@@ -216,7 +216,7 @@
       role: "参与驻地创作、装置呈现、现场互动执行与图像记录整理。",
       output: "项目入选阿那亚戏剧节候鸟300，完成 300 小时驻地创作；作品后续被阿那亚金山岭收藏并进行阶段性展览。",
       tags: ["Installation Art", "阿那亚", "互动装置"],
-      images: imageRange("bia-bia-bia", 4)
+      images: imageRange("bia-bia-bia", 6)
     },
     {
       id: "crystal-plaza",
